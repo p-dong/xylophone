@@ -11,7 +11,7 @@ class XylophoneApp extends StatelessWidget {
     player.play(AssetSource('note$soundNumber.wav'));
   }
 
-  Expanded buildKey({Color color, int soundNumber}) {
+  Expanded buildKey({required Color color, required int soundNumber}) {
     return Expanded(
       child: TextButton(
         onPressed: () {
@@ -50,4 +50,4 @@ class XylophoneApp extends StatelessWidget {
       ),
     );
   }
-}color: 
+}
